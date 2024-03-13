@@ -1,0 +1,10 @@
+select name,cnt_order
+from
+(
+select name,count(1) cnt_order
+from animal_ins
+where name is not null
+group by 1
+) a
+where cnt_order > 1
+order by name
