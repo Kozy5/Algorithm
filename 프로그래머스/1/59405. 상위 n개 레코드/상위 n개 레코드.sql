@@ -1,5 +1,7 @@
-select FIRST_VALUE(name) over(order by datetime)
-from animal_ins limit 1
-
-
-
+select name
+from
+(
+select name,rank() over(order by datetime) ranking
+from animal_ins
+) a
+where ranking = 1
