@@ -1,12 +1,13 @@
 class Solution{
     fun solution(n: Int): Int{
-        var x = 2
-        while(true){
-            if(n % x == 1){
-                return x
-            }
-            x++
+        var answer = 0
+        var x = 0
+        
+        for(i in 3..n){
+            var x = i
+            answer = n%x  
+            if(answer == 1) x
         }
-       
+        return x 
     }
 }
