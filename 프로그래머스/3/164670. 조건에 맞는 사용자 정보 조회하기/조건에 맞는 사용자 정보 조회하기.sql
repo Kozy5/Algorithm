@@ -17,4 +17,3 @@ group by 2
 ) a
 where cnt_wi >= 3
 order by user_id desc
-
