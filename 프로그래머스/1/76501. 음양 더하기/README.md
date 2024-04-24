@@ -1,10 +1,10 @@
 # [level 1] 음양 더하기 - 76501 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76501) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76501?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 60.3 MB, 시간: 0.33 ms
+메모리: 62.5 MB, 시간: 0.36 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 04월 24일 09:30:39
+2024년 04월 24일 09:35:42
 
 ### 문제 설명
 
