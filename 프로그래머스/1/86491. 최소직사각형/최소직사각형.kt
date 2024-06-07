@@ -14,7 +14,7 @@ class Solution {
                }
             }
         }
-        answer = row.sorted()[row.size-1]*column.sorted()[row.size-1]
+        answer = row.sorted()[row.size-1]*column.sorted()[column.size-1]
         return answer
     }
 }
